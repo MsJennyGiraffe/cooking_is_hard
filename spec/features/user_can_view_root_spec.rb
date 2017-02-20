@@ -5,5 +5,6 @@ RSpec.feature "view root" do
     visit "/"
 
     expect(page).to have_content("Cooking is Hard")
+    expect(page).to have_content("Sign In")
   end
 end
